@@ -14,6 +14,8 @@ public class IdEntityToString implements Function<IdEntity, String> {
 
     @Override
     public String apply(IdEntity input) {
+        public static void main(String[] args) {
+        System.out.println("This will be printed");
         return input.getId();
     }
 
